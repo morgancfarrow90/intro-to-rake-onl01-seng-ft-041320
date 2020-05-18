@@ -22,7 +22,7 @@ namespace :db do
   end
 end
 
-namespace desc 'connection to environment.rb'
+desc 'connection to environment.rb'
 task :environment do
   require_relative './config/environment'
 end
