@@ -1,5 +1,7 @@
 require 'sqlite3'
 require 'pry'
+require 'spec_helper'
+require 'rake'
 
 
 require_relative "../lib/student.rb"
