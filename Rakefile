@@ -15,8 +15,9 @@ namespace :db do
   task :migrate => :environment do
     Student.create_table
   end
-end
-
-task :environment do
+  
+  task :environment do
   require_relative './config/environment'
 end
+end
+
