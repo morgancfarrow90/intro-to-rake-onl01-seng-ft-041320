@@ -1,3 +1,6 @@
+require 'spec_helper'
+require 'rake'
+
 namespace :greeting
 do
 desc 'outputs hello to the terminal'
